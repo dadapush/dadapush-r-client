@@ -1,0 +1,12 @@
+Package: DaDaPushClient
+Title: R Package Client for DaDaPush Public API
+Version: 1.0.0
+Authors@R: person("OpenAPI Generator community", email = "team@openapitools.org", role = c("aut", "cre"))
+Description: DaDaPush: Real-time Notifications App Send real-time notifications through our API without coding and maintaining your own app for iOS or Android devices.
+Depends: R (>= 3.3.3)
+Encoding: UTF-8
+License: Unlicense
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, caTools
+RoxygenNote: 6.0.1.9000
