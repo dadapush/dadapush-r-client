@@ -27,8 +27,8 @@ install.packages("caTools")
 ### Build the package
 
 ```sh
-git clone https://github.com/GIT_USER_ID/GIT_REPO_ID
-cd GIT_REPO_ID
+git clone https://github.com/dadapush/dadapush-r-client
+cd dadapush-r-client
 R CMD build .
 R CMD check DaDaPushClient_1.0.0.tar.gz
 R CMD INSTALL DaDaPushClient_1.0.0.tar.gz
@@ -44,7 +44,7 @@ To install directly from Github, use `devtools`:
 ```R
 install.packages("devtools")
 library(devtools)
-install_github("GIT_USER_ID/GIT_REPO_ID")
+install_github("dadapush/dadapush-r-client")
 ```
 
 ### Usage
