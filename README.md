@@ -78,12 +78,6 @@ Class | Method | HTTP request | Description
  - [ResultOfPageResponseOfMessageObject](docs/ResultOfPageResponseOfMessageObject.md)
 
 
-## Documentation for Authorization
-
- All endpoints do not require authorization.
-
-
-
 ## Author
 
 contacts@dadapush.com
