@@ -60,7 +60,7 @@ Result <- R6::R6Class(
         self$`code` <- ResultObject$`code`
       }
       if (!is.null(ResultObject$`data`)) {
-        dataObject <- object$new()
+        dataObject <- Result$new()
         dataObject$fromJSON(jsonlite::toJSON(ResultObject$data, auto_unbox = TRUE))
         self$`data` <- dataObject
       }
@@ -86,7 +86,7 @@ Result <- R6::R6Class(
     fromJSONString = function(ResultJson) {
       ResultObject <- jsonlite::fromJSON(ResultJson)
       self$`code` <- ResultObject$`code`
-      self$`data` <- object$new()$fromJSON(jsonlite::toJSON(ResultObject$data, auto_unbox = TRUE))
+      self$`data` <- Result$new()$fromJSON(jsonlite::toJSON(ResultObject$data, auto_unbox = TRUE))
       self$`errmsg` <- ResultObject$`errmsg`
       self
     }
